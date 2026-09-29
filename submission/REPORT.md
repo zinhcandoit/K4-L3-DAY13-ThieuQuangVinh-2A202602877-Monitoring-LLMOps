@@ -8,7 +8,7 @@
 - **MSSV:** 2A202602877
 - **Lớp:** K4-L3A
 - **Repository URL:** https://github.com/zinhcandoit/K4-L3-DAY13-ThieuQuangVinh-2A202602877-Monitoring-LLMOps.git
-- **Commit SHA cuối:** 
+- **Commit SHA cuối:** `83a4122d930cf83719f71fd07d7ce854032ae2d5` (`83a4122`)
 - **Challenge ID:** day13-k4-l3a-monitoring-llmops-v1
 - **Tên project Langfuse cá nhân:** `day13-k4-l3a-2A202602877`
 
@@ -138,4 +138,4 @@
 - [x] Trace/prompt evidence thuộc project Langfuse cá nhân và ảnh không lộ key/secret.
 - [x] Repository chạy lại được theo README.
 - [x] Không có secret, API key, PII thô hoặc evidence của người khác/lớp khác.
-- [ ] URL repo và commit SHA cuối đã được nộp trên LMS/Codelabs.
+- [x] URL repo và commit SHA cuối đã được nộp trên LMS/Codelabs.
