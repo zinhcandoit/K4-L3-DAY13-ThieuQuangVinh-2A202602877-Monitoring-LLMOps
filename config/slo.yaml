@@ -7,9 +7,14 @@ primary_slo:
     total_event: 'event == "request_received"'
   target_percent: 99.5
   error_budget_percent: 0.5
-  note: Học viên phải giải thích hoặc điều chỉnh ngưỡng bằng baseline của mình.
+  note: >
+    SLO mục tiêu là 99.5% request hoàn thành thành công với latency <= 3000ms trong 28 ngày.
+    Error budget tương ứng là 0.5% (cho phép tối đa 500 failed/slow requests trên mỗi 100,000 requests).
+    Dựa trên baseline thực tế, P95 latency là ~693ms (P50 là 268ms) và tỷ lệ thành công 100%,
+    ngưỡng 3000ms đảm bảo phát hiện kịp thời sự cố nghẽn mạng hoặc RAG slow (thường làm latency vượt 3000ms).
 guardrails:
   error_rate_pct_max: 2
   daily_cost_usd_max: 2.5
   quality_score_avg_min: 0.75
   retrieval_success_rate_pct_min: 90
+
